@@ -1,0 +1,6 @@
+---
+- name: docker login dockerhub
+  docker_login:
+    username: "{{docker_login_dockerhub_username}}"
+    password: "{{docker_login_dockerhub_password}}"
+  when: docker_login_dockerhub_username != "" and docker_login_dockerhub_password != ""
