@@ -3,4 +3,5 @@
   docker_login:
     username: "{{docker_login_dockerhub_username}}"
     password: "{{docker_login_dockerhub_password}}"
-  when: docker_login_dockerhub_username != "" and docker_login_dockerhub_password != ""
+    email: "{{docker_login_dockerhub_email}}"
+  when: docker_login_dockerhub_username != "" and docker_login_dockerhub_password != "" and docker_login_dockerhub_email != ""

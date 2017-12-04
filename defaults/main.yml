@@ -1,3 +1,4 @@
 ---
 docker_login_dockerhub_username: ""
 docker_login_dockerhub_password: ""
+docker_login_dockerhub_email: ""
