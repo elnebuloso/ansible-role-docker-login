@@ -1,6 +1,6 @@
 # Ansible Role - Docker Login
 
-[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-docker-login.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-docker-login)
+![abandoned](https://img.shields.io/badge/project-abandoned-red)
 
 ## Requirements
 
